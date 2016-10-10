@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:background="#eeeeee"
+            android:elevation="7px"
+            android:translationZ="7px">
+            <EditText
+                android:layout_width="860px"
+                android:layout_height="120px"
+                android:layout_marginLeft="60px"
+                android:layout_marginTop="40px"
+                android:background="@drawable/want_shop_find_shape"
+                android:hint="请输入“关键字”试试看"
+                android:textSize="44px"
+                android:textColor="#999999"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_width="68px"
+                android:layout_height="68px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30px"
+                android:src="@drawable/search2"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/shop_erv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.jude.easyrecyclerview.EasyRecyclerView>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</layout>

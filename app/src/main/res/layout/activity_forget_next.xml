@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ebebeb">
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160px"
+            android:background="#41CAC2" >
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@+id/topButton"
+                    android:layout_width="80px"
+                    android:layout_height="70px"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="50px"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/topButton"
+                    android:textColor="@android:color/white"
+                    android:textSize="21sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="找回密码"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:background="@drawable/yellow_1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="36px"
+                    android:textColor="#dfbe3c"
+                    android:text="验 证 身 份"
+                    android:layout_marginTop="7dp"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:background="@drawable/yellow_2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="36px"
+                    android:textColor="#dfbe3c"
+                    android:text="重 置 密 码"
+                    android:layout_marginTop="7dp"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_login_selector"
+            android:layout_marginRight="70px"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="70px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*新  密  码"
+                android:textColor="#444444"
+                android:layout_marginLeft="35px"
+                android:textSize="42px"/>
+
+            <ImageButton
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="15dp"
+                android:background="#8b8b8b"/>
+
+            <EditText
+                android:id="@+id/et_forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:hint="请输入新密码"
+                android:textSize="40px"
+                android:textColorHint="#9a9a9a"
+                android:background="@null"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_login_selector"
+            android:layout_marginRight="70px"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="44px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*密码确认"
+                android:textColor="#444444"
+                android:layout_marginLeft="35px"
+                android:textSize="42px"/>
+            <ImageButton
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="15dp"
+                android:background="#8b8b8b"/>
+
+            <EditText
+                android:id="@+id/et_forget_password_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:hint="请确认新密码"
+                android:textSize="40px"
+                android:textColorHint="#9a9a9a"
+                android:background="@null"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70px"
+            android:layout_marginLeft="70px"
+            android:layout_marginRight="70px">
+            <Button
+                android:id="@+id/btn_forget_back"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="10px"
+                android:text="上一步"
+                android:background="@drawable/btn_post_commit_selector"/>
+            <Button
+                android:id="@+id/btn_forget_commit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="提  交"
+                android:layout_marginLeft="10px"
+                android:background="@drawable/btn_post_commit_selector"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</layout>

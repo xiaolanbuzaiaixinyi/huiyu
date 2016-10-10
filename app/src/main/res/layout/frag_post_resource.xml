@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ebebeb">
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1800px"
+                android:orientation="vertical"
+                android:background="#eeeeee">
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*品       类:"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*公       司:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*品       名:"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*规       格:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*成       分:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*数       量:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*单       价:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*地       区:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="* 联 系 人:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*联系电话:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40px"
+                    android:layout_height="120px">
+                    <TextView
+                        android:layout_width="214px"
+                        android:layout_height="wrap_content"
+                        android:textSize="42px"
+                        android:textColor="#444444"
+                        android:layout_marginLeft="54px"
+                        android:layout_gravity="center"
+                        android:text="*备       注:"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/essential_selector"
+                        android:layout_marginRight="56px"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40px"
+                android:background="@android:color/white">
+                <Button
+                    android:id="@+id/btn_post_buy_commit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/white"
+                    android:text="确定发布"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/btn_post_commit_selector"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+</layout>

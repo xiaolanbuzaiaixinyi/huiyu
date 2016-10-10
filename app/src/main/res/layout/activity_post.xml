@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160px"
+            android:background="#41CAC2">
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@+id/topButton"
+                    android:layout_width="80px"
+                    android:layout_height="70px"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="50px"
+                    android:src="@drawable/arrow_left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回"
+                    android:layout_toRightOf="@+id/topButton"
+                    android:textColor="@android:color/white"
+                    android:textSize="60px"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="我的发布"
+                android:textColor="@android:color/white"
+                android:textSize="60px"
+                android:textStyle="bold" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/id_switch_tab_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+                <RadioGroup
+                    android:id="@+id/rg_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/rb_post_resource"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="发布现货"
+                        android:textColor="#ff0000"
+                        android:button="@null"
+                        android:padding="3dp"
+                        android:textSize="15dip"/>
+                    <RadioButton
+                        android:id="@+id/rb_post_buy"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="上传资源单"
+                        android:button="@null"
+                        android:padding="3dp"
+                        android:textColor="#777777"
+                        android:textSize="15dip" />
+                    <RadioButton
+                        android:id="@+id/rb_post_shop"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="发布求购"
+                        android:button="@null"
+                        android:padding="3dp"
+                        android:textColor="#777777"
+                        android:textSize="15dip" />
+                </RadioGroup>
+            </com.zhy.autolayout.AutoLinearLayout>
+            <ImageView
+                android:id="@+id/mTabLineIv"
+                android:layout_width="200dp"
+                android:layout_height="5dp"
+                android:contentDescription="tab"
+                android:background="@android:color/holo_red_light">
+            </ImageView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.huabeina.pll.huiyu.view.CustomViewPager
+            android:id="@+id/vp_post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+        </com.huabeina.pll.huiyu.view.CustomViewPager>
+    </com.zhy.autolayout.AutoLinearLayout>
+</layout>
